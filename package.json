@@ -17,7 +17,7 @@
 		"localization"
 	],
 	"scripts": {
-		"prepare": "svelte-kit sync",
+		"prepare": "svelte-kit sync && npm run build",
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
 		"preview": "vite preview",
