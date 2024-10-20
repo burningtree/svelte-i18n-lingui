@@ -1,7 +1,8 @@
 /** @typedef {{ match(filename: string) => boolean, extract(filename: string, code: string, onMessageExtracted: (msg: ExtractedMessage) => void, ctx?: ExtractorCtx)=> Promise<void> | void }} ExtractorType */
 
 // import fs from 'fs';
-import { preprocess, parse, walk } from 'svelte/compiler';
+import { preprocess, parse } from 'svelte/compiler';
+import { walk } from 'estree-walker';
 import sveltePreprocess from 'svelte-preprocess';
 import { parse as tsParse } from '@typescript-eslint/typescript-estree';
 import { generateMessageId } from './generateMessageId.js';
