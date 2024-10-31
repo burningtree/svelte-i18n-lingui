@@ -8,6 +8,9 @@ dependencies:
   '@typescript-eslint/typescript-estree':
     specifier: ^6.21.0
     version: 6.21.0(typescript@5.6.3)
+  estree-walker-ts:
+    specifier: ^1.0.1
+    version: 1.0.1
   js-sha256:
     specifier: ^0.10.1
     version: 0.10.1
@@ -1928,6 +1931,10 @@ packages:
     resolution: {integrity: sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==}
     engines: {node: '>=4.0'}
     dev: true
+
+  /estree-walker-ts@1.0.1:
+    resolution: {integrity: sha512-6SuTR3lHCJXZJ8DLb14cZB0FnUCnl6YW2mO4AZlKGK1jGB4kSYm5vOGPvqZeMRWNuqeRoSbvh8VONM1FXV245A==}
+    dev: false
 
   /estree-walker@3.0.3:
     resolution: {integrity: sha512-7RUKfXgSMMkzt6ZuXmqapOurLGPPfgj6l9uRZ7lRGolvk0y2yocc35LdcxKC5PQZdn2DMqioAQ2NoWcrTKmm6g==}
